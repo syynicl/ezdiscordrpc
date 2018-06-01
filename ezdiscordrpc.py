@@ -16,5 +16,6 @@ try:
     while True:
         time.sleep(15)
 
+# Custom KeyboardInterrupt message
 except KeyboardInterrupt:
     print('\nProgram stopped using Ctrl+C.')
